@@ -1,0 +1,43 @@
+
+.NavBar{
+display:grid;
+height:20vh;
+grid-template-areas: "logo nav";
+background-color:rgba(49, 125, 136,0);
+text-shadow: 1px 1px grey;
+font-size: 20px;
+color:rgba(255, 255, 255,1);
+position: fixed
+
+}
+
+.Nav{
+grid-area:nav;
+display: grid;
+grid-template-columns: repeat(3,auto);
+align-items: flex-start;
+justify-content: center;
+width: 100vw;
+
+
+}
+
+a{
+padding:20px;
+text-decoration: none;
+color: rgba(255, 255, 255,1);
+/*font-family: 'Ubuntu', sans-serif;*/
+text-shadow: 2px 2px black;
+/*justify-content: center;*/
+}
+
+
+.logo{
+	padding:0px 10px;
+align-items: flex-start;
+justify-content: center;
+	width: 22vw;
+}
+	
+
+
