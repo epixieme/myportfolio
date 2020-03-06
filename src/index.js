@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './container/App'
 import 'tachyons'
-import './fonts/Humger.ttf'
-import shoreditch from './component/Images/shoreditch.png'
+// import './fonts/Humger.ttf'
+// import shoreditch from './component/Images/shoreditch.png'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));

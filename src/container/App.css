@@ -1,6 +1,6 @@
 
 
-.headline{
+.headline1{
 
 display:flex;
 align-items: center;
@@ -87,22 +87,28 @@ text-shadow: 2px 2px black;
 font-size: 30px;
 
 }
+
+.portfolio{
+display:grid;
+grid-gap: 2em;
+grid-template-columns: repeat(1,auto);
+justify-content: center;
+align-items: center;
+height:60vh;
+background-color:rgba(142, 142, 139,0.8);
+padding:40px 0px;
+color: rgba(255, 255, 255,1);
+text-shadow: 2px 2px black;
+font-size: 30px;
+
+}
 .myBackground{
 	width:40vw;
 font-size: 30px;
 	color: white;
 }
-.banner3{
-display:flex;
-justify-content: center;
-background: black;
-/*font-family: 'Patua One', cursive;*/
-color: white;
-text-shadow: 1px 1px grey;
-font-size: 30px;
-padding:20px 0px;
 
-}
+
 
 .banner4{
 display:flex;
