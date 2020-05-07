@@ -1,12 +1,17 @@
 import React from 'react'
 import Portfolio from './Portfolio'
 
+//this function passes the object properties in projects array to the following prop names
 function PortFolioList({Projects}){
 	return (
 <div>
-	<div className='portfolio'><h1>Portfolio...</h1></div>
+	<div className='portfolio'>
+	<h1 id='portfolio'>Portfolio...</h1>
+	<p className='portfolioprologue'>I am constantly working on new and open source projects, if you wish take a look at my work and contributions below: </p>
+	</div>
+<div className ='images grid-wrapper'>
 {
-Projects.map((items, i)=>{
+	Projects.map((items, i)=>{
 return (
 
 	<Portfolio 
@@ -17,7 +22,9 @@ return (
       />)
 
 	})
-}</div>
+}
+</div>
+</div>
 	)}
 
 export default PortFolioList

@@ -4,7 +4,7 @@ const Contact =()=>{
 	return (
 
 <div className ='contact'>
-      <input className ='contactButton'type='button' value='Get in touch'/>
+      <button as="input" id='contactme' className ='contactButton' type='button' value="Submit">Get In Touch<a href="mailto:mail@example.com"/> </button>
     </div>
 
 		)

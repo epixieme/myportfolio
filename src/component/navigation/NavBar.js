@@ -11,9 +11,9 @@ function NavBar(){
 <img src={logo} alt="website logo" style={{width:'350px',height:'200px'}}/>
 </div>	
 	<nav className='Nav'>
-		<a href="/">About me</a>
-		<a href="/">Portfolio</a>
-		<a href="/">Get in touch</a>
+		<a href="#aboutme">About me</a>
+		<a href="#portfolio">Portfolio</a>
+		<a href="#contactme">Get in touch</a>
 </nav>
 </header>
 

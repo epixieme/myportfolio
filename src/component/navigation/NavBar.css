@@ -1,13 +1,14 @@
 
 .NavBar{
 display:grid;
-height:20vh;
+height:25vh;
 grid-template-areas: "logo nav";
-background-color:rgba(49, 125, 136,0);
-text-shadow: 1px 1px grey;
+background-color:rgba(49, 125, 136,0.5);
+/*text-shadow: 1px 1px grey;*/
 font-size: 20px;
 color:rgba(255, 255, 255,1);
-position: fixed
+position: fixed;
+transition: top 0.3s;
 
 }
 

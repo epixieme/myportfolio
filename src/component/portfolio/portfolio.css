@@ -1,0 +1,13 @@
+/*extra padding removed from portfolio urls*/
+.url{
+	padding:0;
+}
+
+.title{
+	display:flex;
+justify-content: center;
+text-shadow: 2px 2px black;
+font-size: 20px;
+color:rgba(255, 255, 255,1);
+
+}

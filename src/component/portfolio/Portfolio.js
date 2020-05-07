@@ -1,17 +1,14 @@
 import React from 'react'
-
-
+import './portfolio.css'
+//this function renders the props from PortfolioList.js to the page
 const Portfolio=(props)=>{
 return (
 	<div>
-      	<div className='bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5'>
-	    <p>{props.title}</p>
-	    <div>{props.image}</div>
-		<a href={props.url}></a></div>
+      	<p className='title'>{props.title}</p>
+	    <p>{props.image}</p>
+		<a className='url' href={props.url}></a>
       </div>
 
 	)
-
-
 }
 export default Portfolio
